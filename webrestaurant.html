@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Webstaurant welcome page!</title>
+	<style type="text/css">
+		
+		body{
+			 text-align: center;
+			 background-color: lightgray;
+			 font-family: sans-serif;
+		}
+
+		hr{
+			width:400px;
+		}
+		textarea{
+			border: 2px solid;
+			border-radius: 5px;
+			height:50px;
+			width: 220px;
+
+		}
+
+		.input-box{
+			line-height:20px
+			border-radius:20px;
+			border-color: 1px solid;
+			margin:5px 0 15px;
+		}
+
+		.signup-button{
+
+			text-decoration: none;
+			border:1px solid black ;
+			border-radius: 5px;
+			padding:10px 20px;
+			color:#fff;
+			background-color: gray;
+			display:inline-block;
+
+		}
+		.signup-button:hover{
+
+			text-decoration: none;
+			border-radius: 5px;
+			padding:20px 40px;
+			color:blue;
+			border:10px;
+			background-color: pink;
+			display:inline-block;
+			transition: 0.5s
+			border:5px solid black ;
+
+		}
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<h2>Please select your favorite food!</h2>
+
+	<input type="checkbox" name="Beef">Beef
+	<input type="checkbox" name="Burger">Burger
+	<input type="checkbox" name="Salad">Salad
+	<input type="checkbox" name="Ayran">Ayran
+
+	<hr>
+
+	<h2>Let us know how you want your food:</h2>
+
+	<textarea placeholder ="Comments here!"></textarea>
+
+	<hr>
+
+	<h2>Select your sauce:</h2>
+
+	<select>
+		<option>Sauces</option>
+		<option>Hot Sauces</option>
+		<option>Very Sauces</option>
+		<option>Sweet Sauces</option>
+	</select>
+
+	<hr>
+
+		<h1>Create an account with us three easy steps!</h1>
+		<p>Craeting an account allows you to track your order.</p>
+
+		<hr>
+
+		<div class="input-box">
+			Email: <input type="text" name="email" placeholder="Enter email"><br><br>
+		Username: <input type="text" name="username" placeholder="Enter username"><br><br>
+		Password: <input type="password" name="username" placeholder="Enter password"><br><br>
+		</div>
+
+		<a class="signup-button" href="">Sign-up!</a>
+
+</body>
+</html>
